@@ -15,7 +15,13 @@ CSC570 Notes for Week One:
                 1. minimalism, autonomy: no internal changes are required to interconnect networks.
                 2. best effort service model
                 3. stateless router
-        
+
+    Taking signals and mapping into data = Demodulation
+    Taking data and mapping into signals = Modulation
+
+    How is coding involved?
+        - Error detection and correction
+
     Network Devices:
         - Endhosts (server and clients)
         - Routers, switches, and hubs to connect Endhosts
