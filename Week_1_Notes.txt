@@ -12,9 +12,11 @@ CSC570 Notes for Week One:
 
         What did they do?
             - Establish networking principles that define today's Internet architecture:
-                1. minimalism, autonomy: no internal changes are required to interconnect networks.
-                2. best effort service model
-                3. stateless router
+                1. minimalism, autonomy: no internal changes are required to interconnect networks. Network owners have full control over the network.
+                2. best effort service model. Does not have any guarantees, but will do best.
+                3. stateless router. Does not remember packets that are sent. Router does not keep state. Helps with performance and efficency.
+                    - How does a router work?
+                        - Once packet comes in, router checks destination ip to figure where to send the packet.
 
     Taking signals and mapping into data = Demodulation
     Taking data and mapping into signals = Modulation
@@ -24,9 +26,11 @@ CSC570 Notes for Week One:
 
     Network Devices:
         - Endhosts (server and clients)
-        - Routers, switches, and hubs to connect Endhosts
+        - Routers, switches, and hubs (intermediate notes) to connect Endhosts
         - A network => some number of endhosts connected via routers, hubs, and switches
-        - The internet interconnects networks
+        - The internet interconnects networks => collection of networks
+    
+    
     
     Types of Networks:
         "Not all networks are created equal D:"
