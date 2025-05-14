@@ -17,6 +17,13 @@ CSC570 Notes for Week One:
                 3. stateless router. Does not remember packets that are sent. Router does not keep state. Helps with performance and efficency.
                     - How does a router work?
                         - Once packet comes in, router checks destination ip to figure where to send the packet.
+    
+    Circuit-Switching: has a dedicated path and resources.
+    Packet-Switching: Splitting content into smaller chunks. Packets competing for resources (memory and cpu). Make better use of network resources.
+
+    Utilization = fraction of time of using something.
+
+    What are buffers? 
 
     Taking signals and mapping into data = Demodulation
     Taking data and mapping into signals = Modulation
