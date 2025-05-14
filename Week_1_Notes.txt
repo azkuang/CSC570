@@ -1,0 +1,29 @@
+CSC570 Notes for Week One:
+    - Summary:
+        - Course logistics and expectations
+        - Edge vs core network structure
+        - TCP/IP Layers
+        - Packet vs Circuit switching
+
+    Some History:
+        - Cerf and Kahn are internet founding fathers
+            - Vinton Cerf: Born 1943, DARPA program manager, funded and chairman of ICANN, president of ACM (idk what any of these acronyms mean) 
+            - Bob Kahn: Born 1938, PHD from City University in NY, worked at AT&T, professor at MIT
+
+        What did they do?
+            - Establish networking principles that define today's Internet architecture:
+                1. minimalism, autonomy: no internal changes are required to interconnect networks.
+                2. best effort service model
+                3. stateless router
+        
+    Network Devices:
+        - Endhosts (server and clients)
+        - Routers, switches, and hubs to connect Endhosts
+        - A network => some number of endhosts connected via routers, hubs, and switches
+        - The internet interconnects networks
+    
+    Types of Networks:
+        "Not all networks are created equal D:"
+        1. Edge network: carry their own traffic, control themsevles
+        2. Core network: carries their own traffic as well as traffic for customers (transit traffic)
+              
