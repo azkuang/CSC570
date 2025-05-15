@@ -18,8 +18,11 @@ CSC570 Notes for Week One:
                     - How does a router work?
                         - Once packet comes in, router checks destination ip to figure where to send the packet.
     
-    Circuit-Switching: has a dedicated path and resources.
+    Packet: Chunks of data with headers? (what is a header)
+
+    Circuit-Switching: has a dedicated path and resources. Reserve path end-to-end. No need to use packets.
     Packet-Switching: Splitting content into smaller chunks. Packets competing for resources (memory and cpu). Make better use of network resources.
+        - Source of delays: transmission delays -> time it takes a packet to be converted into a signal.
 
     Utilization = fraction of time of using something.
 
@@ -51,3 +54,5 @@ CSC570 Notes for Week One:
     Logical topology vs. Physical topology?
         - Physcial topology: Actual hardware, how nodes are connected through use of cables and network devices.
         - Logical topology: How data flows through networks regardless of physical connection.
+
+    Two networks communicate through each other through routers. 
