@@ -37,10 +37,17 @@ CSC570 Notes for Week One:
         - A network => some number of endhosts connected via routers, hubs, and switches
         - The internet interconnects networks => collection of networks
     
-    
-    
+    TCP/IP: End to end protcol that enables something to be sent. Ensures whatever is sent is actually recieved. Does not congest the network, tries to not lose packets.
+    DNS: maps name to ip address (name of the device).
+    All devices have an ip address
+    FTP: App that runs ontop of TCP for file transfers.
+
     Types of Networks:
         "Not all networks are created equal D:"
         1. Edge network: carry their own traffic, control themsevles
         2. Core network: carries their own traffic as well as traffic for customers (transit traffic)
-              
+
+    Mesh: Each node connects to some of its neighbors
+    Logical topology vs. Physical topology?
+        - Physcial topology: Actual hardware, how nodes are connected through use of cables and network devices.
+        - Logical topology: How data flows through networks regardless of physical connection.
